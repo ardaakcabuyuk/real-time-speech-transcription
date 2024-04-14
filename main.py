@@ -117,7 +117,6 @@ class SpeechTranscriptionApp:
             except Exception as e:
                 print(f'Failed to summarize speech: {e}')
 
-
         print('\nDo you want to upload the recording?\n')
         print('0: Upload\n1: Discard\n')
         choice = input('Select an option: ')
