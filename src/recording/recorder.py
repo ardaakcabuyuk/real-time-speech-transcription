@@ -19,6 +19,7 @@ class Recorder():
 
     Attributes:
         recording (bytearray): The recorded audio data.
+        transcription (str): Transcription of the recording.
 
     Methods:
         record_and_transcribe_live: Starts recording audio and performs real-time speech transcription.
