@@ -73,6 +73,7 @@ To run the CLI application using Docker, use the following command:
 docker run -it
   --env-file .env
   -v ~/.config/pulse:/home/pulseaudio/.config/pulse
+  -rm
   app
 ```
 
