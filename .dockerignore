@@ -1,0 +1,13 @@
+# Ignore specific directories
+**/__pycache__/
+audio_files/
+.venv/
+
+# Ignore specific files
+Dockerfile
+docker-compose.yml
+LICENSE
+README.md
+
+# Ignore environment files
+.env
