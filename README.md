@@ -70,10 +70,9 @@ This command builds the Docker image and tags it as `app`.
 To run the CLI application using Docker, use the following command:
 
 ```shell
-docker run -it
-  --env-file .env
-  -v ~/.config/pulse:/home/pulseaudio/.config/pulse
-  -rm
+docker run -it \
+  --env-file .env \
+  -v ~/.config/pulse:/home/pulseaudio/.config/pulse \
   app
 ```
 
